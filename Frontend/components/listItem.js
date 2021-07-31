@@ -1,5 +1,5 @@
-function listItem(text) {
+function listItem(text, identifier) {
         const li = document.createElement("li");
 
-        document.querySelector("#bullet-list").appendChild(li).textContent = text;
+        document.querySelector(identifier).appendChild(li).textContent = text;
 }

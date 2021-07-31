@@ -1,5 +1,5 @@
 const todoList = returnTodo();
 
 todoList.forEach(function(todo) {
-    listItem(todo)
+    listItem(todo, "#bullet-list");
 });
